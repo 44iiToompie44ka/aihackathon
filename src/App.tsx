@@ -1,30 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import WebApp from '@twa-dev/sdk'
 
+const gamesList = ['List Item 1', 'List Item 2', 'List Item 3'];
+
+const UsingArrayMap = () => (
+    <div>
+        {
+            gamesList.map((item, index) => (
+                <div key={index}>{item}</div>
+            ))
+        }
+    </div>
+);
+
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-              {/*  */}
+        <h2>JetisuDigital AI Playground</h2>
 
-        
+        <ul>
+          <UsingArrayMap />
+        </ul>
+
+
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
@@ -43,3 +44,5 @@ function App() {
 }
 
 export default App
+
+
