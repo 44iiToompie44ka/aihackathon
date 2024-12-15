@@ -7,9 +7,12 @@ function App() {
     <header><h2>JetisuDigital AI Playground</h2></header>
       <PopularGamesList />
 
+
     <h2>
       Что это?
     </h2>
+    <hr></hr>
+    <p>Jetisu Digital AI Playground - Площадка, с ИИ ≪Опытами≫. <br></br>Мы подобрали для вас самые интересные способы использования ИИ</p>
   </>)
 }
 

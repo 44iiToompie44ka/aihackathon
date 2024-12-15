@@ -1,10 +1,10 @@
 import GameIcon from "./game_icon";
 
 const gamesList = [
-    GameIcon("https://preview.redd.it/gawr-gura-by-donnami-v0-sm167kcbd4xc1.jpeg?width=1080&crop=smart&auto=webp&s=67103e61039369e790ccda078a402b2f7ef93c78", 'title1'), 
+    GameIcon("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmoj5OVSnuRXHNrW1t_KGFuf-9oK4_ruXrHQ&s", 'Prikol1'), 
     GameIcon("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSN5kyGXRsJTnCvfM371Ycg8u7k9viw1gW-g&s", "AlchemyZXC"), 
-    GameIcon("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-YIGV8GTRHiW_KACLMhhi9fEq2T5BDQcEyA&s", "AlchemyZXC"), 
-    GameIcon("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-YIGV8GTRHiW_KACLMhhi9fEq2T5BDQcEyA&s", "AlchemyZXC"), 
+    GameIcon("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-YIGV8GTRHiW_KACLMhhi9fEq2T5BDQcEyA&s", "JD Dino"), 
+    GameIcon("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpB84A1p8GN5h-ZS3gd-Ftvx--cjIO5qsdy1FqaT93ou2vtartqjNy-Ynryw0BTpaNvbk&usqp=CAU", "Promt Contest"), 
     GameIcon("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-YIGV8GTRHiW_KACLMhhi9fEq2T5BDQcEyA&s", "AlchemyZXC"), 
 
 ]
