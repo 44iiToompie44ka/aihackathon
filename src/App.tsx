@@ -1,13 +1,10 @@
-import WebApp from '@twa-dev/sdk';
 import './App.css'
 import gamesList from './components/game_icon/games_list';
 
 function App() {
   return (    <>
-    <header>    <h2>JetisuDigital AI Playground</h2>    </header>
-    <div className="card">
-        <UsingArrayMap />
-    </div>
+    <header><h2>JetisuDigital AI Playground</h2></header>
+      <PopularGamesList />
     
 
       
@@ -15,7 +12,7 @@ function App() {
 }
 
 
-const UsingArrayMap = () => (
+const PopularGamesList = () => (
     
     <div>
       <h3 className='popularHeader'>Популярное</h3>
