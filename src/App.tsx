@@ -4,11 +4,12 @@ import gamesList from './components/game_icon/games_list';
 function App() {
   return (
     <>
-    <div className='viewPort'>
     <header><h2>JetisuDigital AI Playground</h2></header>
       <PopularGamesList />
-    </div>
-    
+
+    <h2>
+      Что это?
+    </h2>
   </>)
 }
 

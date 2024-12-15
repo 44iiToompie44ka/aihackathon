@@ -22,9 +22,3 @@
   
 }
 
-.viewPort{
-  border-radius: 32px;
-  background-color:  var(--tg-theme-secondary-bg-color);;
-  margin: 1%;
-  height: 130vw;
-}
