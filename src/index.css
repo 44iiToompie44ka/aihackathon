@@ -35,6 +35,8 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: --tg-theme-text-color;
+
 }
 
 button {
@@ -47,9 +49,10 @@ button {
   background-color: --tg-theme-button-color;
   cursor: pointer;
   transition: border-color 0.25s;
+  
 }
 button:hover {
-  border-color: #646cff;
+  border-color: --tg-theme-hint-color;
 }
 button:focus,
 button:focus-visible {
