@@ -1,0 +1,9 @@
+.gameImage{
+    border-radius: 36px !important;
+    padding-left: 16px;    padding-right: 16px;
+
+}
+
+.gameTitle{
+    color: --tg-theme-text-color;
+}
