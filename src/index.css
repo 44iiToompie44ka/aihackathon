@@ -14,9 +14,23 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  text-decoration: color(var(--tg-theme-text-color));
 }
 
+h1{
+  color: var(--tg-theme-text-color);
+}
+h2{
+  color: var(--tg-theme-text-color);
+}
+h3{
+  color: var(--tg-theme-text-color);
+}
+h4{
+  color: var(--tg-theme-text-color);
+}
+body{
+  color: var(--tg-theme-text-color);
+}
 a {
   font-weight: 500;
   color: #646cff;
