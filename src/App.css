@@ -37,6 +37,7 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+.gamesArray{
+  display: flex;
+  flex-direction: column;
 }
