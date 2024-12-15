@@ -42,7 +42,7 @@
   width: 500px;
   display: flex;
   flex-direction: row;
-  overflow-y: auto;
-  overflow-x: hidden;
-  text-overflow: ellipsis;
+  scroll-behavior:smooth;
+  overflow: auto;
+  list-style-position: inherit;
 }
