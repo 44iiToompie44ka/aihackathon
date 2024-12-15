@@ -1,6 +1,6 @@
 import WebApp from '@twa-dev/sdk';
 import './App.css'
-import GameIcon from './components/game_icon/game_icon';
+import gamesList from './components/game_icon/games_list';
 
 function App() {
   return (    <>
@@ -17,22 +17,21 @@ function App() {
 
   </>)
 }
-const gamesList = [
-GameIcon("https://preview.redd.it/gawr-gura-by-donnami-v0-sm167kcbd4xc1.jpeg?width=1080&crop=smart&auto=webp&s=67103e61039369e790ccda078a402b2f7ef93c78", 'title1'), 
-'List Item 2', 
-'List Item 3'];
+
 
 const UsingArrayMap = () => (
     
-    <div className='gamesArray'>
-      <p>
+    <div>
+      <p className='gamesArray'>
         {
             gamesList.map((item, index) => (
                 <div key={index}>{item}</div>
             ))
         }
         </p>
+        
     </div>
+    
 );
 export default App
 
