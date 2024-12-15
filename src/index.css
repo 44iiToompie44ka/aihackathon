@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: --tg-theme-bg-color;
+  background-color: var(--tg-theme-bg-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -35,7 +35,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  color: --tg-theme-text-color;
+  color: var(--tg-theme-text-color);
 
 }
 
@@ -46,13 +46,13 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: --tg-theme-button-color;
+  background-color: var(--tg-theme-button-color);
   cursor: pointer;
   transition: border-color 0.25s;
   
 }
 button:hover {
-  border-color: --tg-theme-hint-color;
+  border-color: var(--tg-theme-hint-color);
 }
 button:focus,
 button:focus-visible {
