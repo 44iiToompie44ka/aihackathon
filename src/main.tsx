@@ -13,17 +13,19 @@ import { PageNotFound } from './components/pages/page_not_found.tsx'
 
 const router = createBrowserRouter([
   {
+    path: "*",
+    element: <PageNotFound />
+  },
+  {
     path: "/aihackathon/",
     element: <App />
   },
   {
-    path: "Alchemy/",
+    path: "/aihackathon/alchemy/",
     element: <AlchemyScreen />,
   },
-  {
-    path: "*",
-    element: <PageNotFound />
-  }
+
+
 
 ])
 
