@@ -4,16 +4,11 @@ import gamesList from './components/game_icon/games_list';
 
 function App() {
   return (    <>
-    <h2>JetisuDigital AI Playground</h2>
+    <header>    <h2>JetisuDigital AI Playground</h2>    </header>
     <div className="card">
         <UsingArrayMap />
     </div>
-    <div className='expand'>
-        
-      <button onClick={() => WebApp.expand()}>
-        expand
-      </button>
-      </div>
+    
 
       
   </>)
@@ -23,6 +18,7 @@ function App() {
 const UsingArrayMap = () => (
     
     <div>
+      <h3 className='popularHeader'>Популярное</h3>
       <p className='gamesArray'>
         {
             gamesList.map((item, index) => (
