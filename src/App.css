@@ -43,3 +43,8 @@
   overflow: auto;
   list-style-position: inherit;
 }
+
+.popularHeader{
+  text-align: start;
+  
+}
