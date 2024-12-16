@@ -7,8 +7,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { PageNotFound } from './components/pages/page_not_found.tsx'
-import AlchemyScreen from './components/pages/alchemy_game'
+import { PageNotFound } from './pages/page_not_found.tsx'
+import AlchemyScreen from './pages/alchemy_game'
+import MyPage from './pages/prko/page.tsx'
+import NewYearGreetings from './pages/zxc/page.tsx'
 
 
 
@@ -18,13 +20,21 @@ const router = createBrowserRouter([
     element: <PageNotFound />
   },
   {
-    path: "/",
+    path: "/aihackathon/",
     element: <App />
   },
   {
     path: "/aihackathon/alchemy/",
     element: <AlchemyScreen />,
   },
+  {
+    path: "/aihackathon/mypage",
+    element: <MyPage />
+  },
+  {
+    path: "/aihackathon/newyearzxc",
+    element: <NewYearGreetings />
+  }
 
 
 

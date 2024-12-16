@@ -6,8 +6,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "dev": "next dev",
-    "build": "tsc -b && next build",
+    "dev": "vite dev",
+    "build": "tsc -b && vite build",
     "lint": "eslint ."
   },
   "dependencies": {
