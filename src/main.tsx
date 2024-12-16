@@ -8,7 +8,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { PageNotFound } from './components/pages/page_not_found.tsx'
-import AlchemyScreen from './components/pages/alchemy_game/components/alch_page.tsx'
+import AlchemyScreen from './components/pages/alchemy_game'
+
 
 
 const router = createBrowserRouter([
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
     element: <PageNotFound />
   },
   {
-    path: "/aihackathon/",
+    path: "/",
     element: <App />
   },
   {

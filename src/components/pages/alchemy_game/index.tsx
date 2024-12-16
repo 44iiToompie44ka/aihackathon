@@ -1,14 +1,13 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import axios from "axios";
-import { AlchElement, PlacedElement } from "./element";
+import { SideBar } from "./components/side-bar";
+import { AlchElement, PlacedElement } from "./interfaces/element";
+import { defaultElement } from "./constants/default-element";
 import { DndContext, DragOverlay } from "@dnd-kit/core";
-import { ElementCard } from "./alch_element-card";
-import { PlaygroundArea } from "./alch_playground-area";
-import { SideBar } from "./alch_side-bar";
-import { defaultElement } from "./default-element";
+import { PlaygroundArea } from "./components/playground-area";
 import { v4 as uuid } from "uuid";
-import "../alch_game.css";
+import { ElementCard } from "./components/element-card";
+import axios from "axios";
 
 export default function AlchemyScreen() {
   const [elements, setElements] = useState<AlchElement[]>([]);

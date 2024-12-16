@@ -1,5 +1,5 @@
 import { useDraggable, useDroppable } from "@dnd-kit/core";
-import { AlchElement, PlacedElement } from "./element";
+import { AlchElement, PlacedElement } from "../interfaces/element";
 import { Loader } from "lucide-react";
 import { CSS } from "@dnd-kit/utilities";
 import { useMemo } from "react";

@@ -1,10 +1,9 @@
 "use client";
-import { defaultElement } from "./default-element";
-import { ElementCardDraggableWrapper } from "./alch_element-card";
+import { AlchElement, PlacedElement } from "../interfaces/element";
+import { defaultElement } from "../constants/default-element";
+import { ElementCardDraggableWrapper } from "./element-card";
 import { RotateCcw, Trash } from "lucide-react";
 import { useDroppable } from "@dnd-kit/core";
-import { PlacedElement } from "./element";
-import "../alch_game.css";
 
 export const PlaygroundArea = ({
   placedElements,
@@ -14,7 +13,7 @@ export const PlaygroundArea = ({
 }: {
   placedElements: PlacedElement[];
   setPlacedElements: (v: PlacedElement[]) => void;
-  setElements: (v: { text: string; emoji: string; discovered: boolean; }[]) => void;
+  setElements: (v: AlchElement[]) => void;
   isLoading: boolean;
 }) => {
   const onClearPlacedElements = () => {
@@ -40,7 +39,7 @@ export const PlaygroundArea = ({
   });
 
   return (
-    <div className="playground" ref={setNodeRef}>
+    <div className="col-span-9 h-full w-full relative" ref={setNodeRef}>
       {placedElements.map((element, index) => (
         <ElementCardDraggableWrapper
           key={index}
@@ -61,7 +60,6 @@ export const PlaygroundArea = ({
         <RotateCcw />
       </div>
 
-      
     </div>
   );
 };

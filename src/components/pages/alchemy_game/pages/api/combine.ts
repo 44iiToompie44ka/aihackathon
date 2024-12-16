@@ -1,6 +1,6 @@
+import { AlchElement } from "../../interfaces/element";
 import type { NextApiRequest, NextApiResponse } from "next";
 import OpenAI from "openai";
-import { AlchElement } from "../element";
 
 const openai = new OpenAI({
   apiKey: "sk-svcacct-1evn-VAwtBtoviI_h1L27qyjTM0eDZOlklgBAYZkuEj7V_yhTFV6VL0rCXJKBYJeOfFT3BlbkFJMAhGw_bhHN2tcvbzUhY29Oz6uyctuTTYeefpQqD2lFkjriJgOrcwIYo0QRcqOEkaGAA",

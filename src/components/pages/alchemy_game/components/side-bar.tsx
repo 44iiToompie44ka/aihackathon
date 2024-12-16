@@ -1,8 +1,8 @@
 import { Search, Telescope } from "lucide-react";
 import { useMemo, useState } from "react";
-import { Sort, SortButton } from "./alch_sort-button";
-import { AlchElement } from "./element";
-import { ElementCardSideBarWrapper } from "./alch_element-card";
+import { Sort, SortButton } from "./sort-button";
+import { AlchElement } from "../interfaces/element";
+import { ElementCardSideBarWrapper } from "./element-card";
 import { useDroppable } from "@dnd-kit/core";
 
 export const SideBar = ({
