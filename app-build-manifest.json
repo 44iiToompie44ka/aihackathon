@@ -15,14 +15,6 @@
       "static/css/59477e102e60c349.css",
       "static/chunks/app/layout-ab4292a92aaa9be6.js"
     ],
-    "/alchemy/page": [
-      "static/chunks/webpack-3109be2d37f8bf48.js",
-      "static/chunks/fd9d1056-f712706e98bb7155.js",
-      "static/chunks/69-18ca71039562542f.js",
-      "static/chunks/main-app-27ed92e95cfdea1c.js",
-      "static/chunks/497-a6c6b0bef24a2f45.js",
-      "static/chunks/app/alchemy/page-e4aa7222eb09cad6.js"
-    ],
     "/page": [
       "static/chunks/webpack-3109be2d37f8bf48.js",
       "static/chunks/fd9d1056-f712706e98bb7155.js",
@@ -31,6 +23,14 @@
       "static/chunks/250-ff3f81f7a483d29a.js",
       "static/css/e6549608975aff8e.css",
       "static/chunks/app/page-a26f0be0c6602403.js"
+    ],
+    "/alchemy/page": [
+      "static/chunks/webpack-3109be2d37f8bf48.js",
+      "static/chunks/fd9d1056-f712706e98bb7155.js",
+      "static/chunks/69-18ca71039562542f.js",
+      "static/chunks/main-app-27ed92e95cfdea1c.js",
+      "static/chunks/497-a6c6b0bef24a2f45.js",
+      "static/chunks/app/alchemy/page-e4aa7222eb09cad6.js"
     ]
   }
 }
