@@ -1,4 +1,5 @@
 'use client';
+import { Link } from "react-router-dom";
 import "./style.css"
 import React, { useState } from 'react';
 
@@ -8,7 +9,7 @@ const MyPage: React.FC = () => {
     const [evaluation, setEvaluation] = useState<string>('');
 
     // API-ключ OpenAI
-    const apiKey = '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'; // Замените на ваш API-ключ
+    const apiKey = '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'; // Замените на ваш API-ключ
     const encodedApiKey = btoa(apiKey); // Кодируем ключ в Base64
 
     // Функция для генерации случайной катастрофы
@@ -85,7 +86,7 @@ const MyPage: React.FC = () => {
             <h1>Игра "Выживи в катастрофе"</h1>
             <button
                 onClick={generateDisaster}
-                style={{ padding: '10px 20px', fontSize: '16px', marginBottom: '20px', cursor: 'pointer', color:'black', backgroundColor:'gray', border:'10px',borderRadius:'10px',}}
+                style={{ padding: '10px 20px', fontSize: '16px', marginBottom: '20px', cursor: 'pointer', color:'var(--tg-theme-text-color)', backgroundColor:'gray', border:'10px',borderRadius:'10px',}}
             >
                 Сгенерировать катастрофу
             </button>
@@ -106,17 +107,15 @@ const MyPage: React.FC = () => {
                     >
                         Отправить ответ
                     </button>
-                    <button
-                        className="button"
-                        style={{ padding: '10px 20px', fontSize: '16px', marginBottom: '20px', cursor: 'pointer', color:'white', backgroundColor:'green', border:'10px',borderRadius:'10px',}}
-                    >
-                        главная
-                    </button>
+                    
                 </>
             )}
             {evaluation && (
                 <p><strong>Оценка:</strong> {evaluation}</p>
             )}
+            <Link to={"/aihackathon/"}> 
+        <h3> <sup>На главную </sup></h3>
+        </Link>
         </div>
     );
 };

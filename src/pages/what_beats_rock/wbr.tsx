@@ -13,7 +13,7 @@ const WBR: React.FC = () => {
 
   const openai = new OpenAI({
     dangerouslyAllowBrowser: true,
-    apiKey: "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",
+    apiKey: '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'
   });
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
