@@ -1,6 +1,6 @@
 import GameIcon from "../game_icon"
 
 const newGamesList = [
-    GameIcon("https://i.pinimg.com/564x/0b/86/cb/0b86cb530f99531d9dc8a248d6d6fd8b.jpg", "Генератор приколов", "prikol/")
+    GameIcon("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpB84A1p8GN5h-ZS3gd-Ftvx--cjIO5qsdy1FqaT93ou2vtartqjNy-Ynryw0BTpaNvbk&usqp=CAU", "Что бьет этот камень?!", "wbr/"), 
 ]
 export default newGamesList

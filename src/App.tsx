@@ -1,11 +1,13 @@
 import './App.css'
 import gamesList from './components/games_list/lists/games_list';
 import newGamesList from './components/games_list/lists/new_games_list';
+import Snowfall from './components/snowfall';
 
 function App() {
   return (
     <>
-    <header><h2>JetisuDigital AI Playground</h2></header>
+    <div className="animation"><Snowfall /></div>
+
       <PopularGamesList />
       <NewGamesList />
 

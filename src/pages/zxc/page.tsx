@@ -1,6 +1,8 @@
 "use client";
 
+import "./zxc.css";
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const NewYearGreetings: React.FC = () => {
   const [greeting, setGreeting] = useState('');
@@ -45,8 +47,7 @@ const NewYearGreetings: React.FC = () => {
       justifyContent: 'center',
       alignItems: 'center',
       height: '100vh',
-      backgroundColor: '#f7f9fc',
-      backgroundImage: 'url(https://example.com/snow-bg.png)',
+      backgroundColor: 'var(--tg-theme-background-color)',
       backgroundSize: 'cover',
       textAlign: 'center',
     }}>
@@ -62,7 +63,7 @@ const NewYearGreetings: React.FC = () => {
         padding: '10px 20px',
         fontSize: '1.2rem',
         color: '#fff',
-        backgroundColor: '#ff6f61',
+        backgroundColor: 'var(--tg-theme-background-color)',
         border: 'none',
         borderRadius: '5px',
         cursor: 'pointer',
@@ -75,17 +76,23 @@ const NewYearGreetings: React.FC = () => {
         <p style={{
           marginTop: '20px',
           fontSize: '1.5rem',
-          color: '#333',
+          color: 'var(--tg-theme-text-color)',
           fontStyle: 'italic',
           padding: '10px 20px',
           border: '1px dashed #ff3e96',
-          backgroundColor: 'rgba(255, 255, 255, 0.8)',
+          backgroundColor: 'var(--tg-theme-background-color)',
           borderRadius: '10px',
         }}>
           {greeting}
+          
         </p>
+        
       )}
+      <Link to={"/aihackathon/"}> 
+        <h3> <sup>На главную </sup></h3>
+        </Link>
     </div>
+    
   );
 };
 

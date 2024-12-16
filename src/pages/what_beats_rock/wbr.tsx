@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { OpenAI } from 'openai';
+import { Link } from 'react-router-dom';
 
 const initialItem = { emoji: '🪨', name: 'Камень' };
 
@@ -11,7 +12,8 @@ const WBR: React.FC = () => {
   const [loading, setLoading] = useState(false);
 
   const openai = new OpenAI({
-    apiKey: "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",
+    dangerouslyAllowBrowser: true,
+    apiKey: "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",
   });
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -90,7 +92,11 @@ const WBR: React.FC = () => {
             {loading ? 'Проверяем...' : 'Отправить'}
           </button>
           <p>Счёт: {score}</p>
+          <Link to={"/aihackathon/"}> 
+        <h3> <sup>На главную </sup></h3>
+        </Link>
         </div>
+        
       )}
     </div>
   );
