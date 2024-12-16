@@ -1,0 +1,8 @@
+:root{
+    background-color: var(--tg-theme-secondary-background-color);
+
+}
+
+body{
+    color: var(--tg-theme-text-color);
+}

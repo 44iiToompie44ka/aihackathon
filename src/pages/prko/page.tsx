@@ -1,5 +1,5 @@
 'use client';
-
+import "./style.css"
 import React, { useState } from 'react';
 
 const MyPage: React.FC = () => {

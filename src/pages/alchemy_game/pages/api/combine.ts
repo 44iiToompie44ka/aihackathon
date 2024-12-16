@@ -3,7 +3,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import OpenAI from "openai";
 
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "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",
 });
 
 type ResponseData = {

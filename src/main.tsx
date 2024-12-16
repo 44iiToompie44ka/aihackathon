@@ -11,6 +11,7 @@ import { PageNotFound } from './pages/page_not_found.tsx'
 import AlchemyScreen from './pages/alchemy_game'
 import MyPage from './pages/prko/page.tsx'
 import NewYearGreetings from './pages/zxc/page.tsx'
+import WBR from './pages/what_beats_rock/wbr.tsx'
 
 
 
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/aihackathon/newyearzxc",
     element: <NewYearGreetings />
+  },
+  {
+    path: "/aihackathon/wbr",
+    element: <WBR />
   }
 
 
