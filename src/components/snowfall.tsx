@@ -9,9 +9,9 @@ const Snowfall = () => {
         play
         style={{
           width: '80%',
-          height: '120%',
+          height: '-20%',
           position: 'absolute',
-          top: -400,
+          top: -50,
           left: 0,
           pointerEvents: 'none', // Ensure animation does not interfere with user interactions
         }}

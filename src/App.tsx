@@ -1,21 +1,17 @@
 import './App.css'
 import gamesList from './components/games_list/lists/games_list';
 import newGamesList from './components/games_list/lists/new_games_list';
-import Snowfall from './components/snowfall';
 
 function App() {
   return (
     <>
-    <div className="animation"><Snowfall /></div>
-
       <PopularGamesList />
       <NewGamesList />
-
     <h2>
       Что это?
     </h2>
     <hr></hr>
-    <p>Jetisu Digital AI Playground - Площадка, с ИИ ≪Опытами≫. <br></br>Мы подобрали для вас самые интересные способы использования ИИ</p>
+    <p>Jetisu Digital AI Playground - Площадка, с ИИ ≪Опытами≫. <br></br>Мы подобрали для вас самые интересные способы использования ИИ <br></br><br></br>Если ты хочешь добавить свой опыт, расширив их арсенал - обращайся сюда: @posudomoisky</p>
   </>)
 }
 
