@@ -7,8 +7,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { AlchemyScreen } from './components/pages/alchemy_game/alchemy_page.tsx'
 import { PageNotFound } from './components/pages/page_not_found.tsx'
+import AlchemyScreen from './components/pages/alchemy_game/components/alch_page.tsx'
 
 
 const router = createBrowserRouter([
