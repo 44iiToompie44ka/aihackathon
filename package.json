@@ -8,7 +8,8 @@
     "deploy": "gh-pages -d build",
     "dev": "vite dev",
     "build": "tsc -b && vite build",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "vite start"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.1.0",

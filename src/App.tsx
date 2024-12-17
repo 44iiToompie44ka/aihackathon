@@ -2,7 +2,9 @@ import './App.css'
 import gamesList from './components/games_list/lists/games_list';
 import newGamesList from './components/games_list/lists/new_games_list';
 
+
 function App() {
+  
   return (
     <>
       <PopularGamesList />
